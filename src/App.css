@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.head{
+  font-size: 50%;
+  font-family: 'Noto Serif JP', serif;
+}
+div{
+  font-family: 'Sawarabi Mincho', serif;
+}

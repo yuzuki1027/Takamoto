@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 
-function App() {
+function Business() {
   return (
     <div className="card">
   <div className="card-body">
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Business;
