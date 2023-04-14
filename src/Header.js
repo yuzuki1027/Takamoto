@@ -9,7 +9,7 @@ function Header() {
     return (
           <Navbar bg="dark" className="head" variant="dark">
             <Container>
-              <Navbar.Brand href="#home" >高本電業株式会社</Navbar.Brand>
+              <h1><Navbar.Brand href="#home" >高本電業株式会社</Navbar.Brand></h1>
               <Nav className="float right">
                 <Nav.Link href="#top">トップ</Nav.Link>
                 <Nav.Link href="#business">事業内容</Nav.Link>

@@ -44,3 +44,18 @@
 div{
   font-family: 'Sawarabi Mincho', serif;
 }
+
+  .jumbotron { background:url(./images/taka.jpg)  center no-repeat;
+    font-size: 100%;
+    height:auto;
+    padding:300px;
+    background-size: auto;
+  }
+  .electric{
+    text-align: left;
+    color:azure;
+    font-size: 300%;
+  }
+  .taka-wrapper{
+    
+  }

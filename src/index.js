@@ -13,10 +13,15 @@ root.render(
   
   <React.StrictMode>
     <Header/>
-    <Consept/>
-    <Intro/>
-    <Business/>
+
+    <div class="mw-100 mh-100"><Consept/></div>
+    <div class="container mw-100 mh-100 m-0">
+    <div class="w-auto p-auto border example-row m-0"><Intro/></div>
+    <div class="w-auto p-auto border example-row m-0"> <Business/></div>
+    </div>
+
     <Footer />
+
   </React.StrictMode>
 );
 
