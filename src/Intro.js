@@ -6,28 +6,23 @@ import Card from 'react-bootstrap/Card';
 
 function Intro() {
   return (
-    <div>
-    <Simple_Card/>
-    <Simple_Card/>
-    <Simple_Card/>
+    <div className="intro_back">
+      <div class="container">
+  <div class="row">
+    <div class="col-sm-6 bg-black ">
+      aaaa
+    </div>
+    <div class="col-sm-6 intro_right_bg">
+     aaa
+    </div>
+  </div>
+</div>
+      
+    
     </div>
   );
 }
-function Simple_Card(){
-    return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
- );
-}
+
 
 
 

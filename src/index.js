@@ -14,11 +14,10 @@ root.render(
   <React.StrictMode>
     <Header/>
 
-    <div class="mw-100 mh-100"><Consept/></div>
-    <div class="container mw-100 mh-100 m-0">
-    <div class="w-auto p-auto border example-row m-0"><Intro/></div>
+  <Consept/>
+   <Intro/>
     <div class="w-auto p-auto border example-row m-0"> <Business/></div>
-    </div>
+    
 
     <Footer />
 

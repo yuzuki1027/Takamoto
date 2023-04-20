@@ -45,17 +45,39 @@ div{
   font-family: 'Sawarabi Mincho', serif;
 }
 
-  .jumbotron { background:url(./images/taka.jpg)  center no-repeat;
-    font-size: 100%;
-    height:auto;
-    padding:300px;
-    background-size: auto;
-  }
+  .jumbotron { 
+    background-color: #61dafb;
+    background:url(./images/taka.jpg)  no-repeat center center fixed;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+  
   .electric{
     text-align: left;
     color:azure;
     font-size: 300%;
   }
-  .taka-wrapper{
+  .intro_back{
+    background-color: #61dafb;
+    background:url(./images/desk.JPG)  no-repeat center center fixed;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
     
   }
+  .intro_right_bg{
+    background-color: #61dafb;
+    background:url(./images/sagyou.JPG)  no-repeat center center fixed;
+    background-size: cover;
+    height: 40vh;
+    scale:0.6;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  
