@@ -61,7 +61,7 @@ div{
     font-size: 300%;
   }
   .intro_back{
-    background-color: #61dafb;
+   
     background:url(./images/desk.JPG)  no-repeat center center fixed;
     background-size: cover;
     height: 40vh;
@@ -71,13 +71,20 @@ div{
     
   }
   .intro_right_bg{
-    background-color: #61dafb;
+    
     background:url(./images/sagyou.JPG)  no-repeat center center fixed;
     background-size: cover;
     height: 40vh;
-    scale:0.6;
+    scale:0.8;
     width: 100%;
     position: relative;
     z-index: 1;
   }
+  .intro-left{
+    color:white;
+    margin: auto;
+    text-align: center;
+    border-radius:10%;
+  }
+  
   
