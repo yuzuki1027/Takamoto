@@ -4,22 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Consept() {
   return (
-    <>
-    {/* <div className='taka figure-img img-fluid rounded'>
-      <div className='d-block p-2  text-white'>
-      <h2>Electric</h2>
-      <h3>電力</h3>
-      </div>
-    </div> */}
     
 
-    <div className="jumbotron">
+<div className="bgTaka  position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div className="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 className="display-4  fw-normal">高本電業株式会社</h1>
       
-        <p className="font-weight-bold electric">Electric System</p>
-        
     </div>
-  
-      </>
+
+   
+  </div>
   );
 }
 

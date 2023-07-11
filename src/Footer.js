@@ -1,16 +1,19 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+function footer() {
+    return (
+      <>
+        
+        
 
-function Footer() {
-  return (
-    <div className="card">
-  <div className="card-body">
-    <Button variant="outline-primary">プライマリーボタン</Button>
+<footer className="footer bg-black text-center">
+  <div  className="container">
+    <p  className="text-muted">&copy;高本電業株式会社</p>
   </div>
-</div>
-  );
-}
+</footer>
+      </>
+    );
+  }
 
-export default Footer;
+export default footer;

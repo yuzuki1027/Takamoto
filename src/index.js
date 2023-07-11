@@ -3,28 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './Header';
 import Intro from './Intro';
-import Footer from './Footer';
+import Footer from "./Footer";
 import Business from './Business';
+import Office from './Office';
 import Consept from './Consept';
+import Campany from './Campany';
 import reportWebVitals from './reportWebVitals';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
   <React.StrictMode>
     <Header/>
-
-  <Consept/>
-   <Intro/>
-    <div class="w-auto p-auto border example-row m-0"> <Business/></div>
-    
-
+    <main>
+      <Consept/>
+      <Intro/>
+      <hr className="featurette-divider" id="business"></hr>
+      <Business/>
+      <hr className="featurette-divider" id="office"></hr>
+      <Office />
+      <hr className="featurette-divider" id="company"></hr>
+      <Campany />
+      <hr className="featurette-divider"></hr>
+    </main>
     <Footer />
-
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
