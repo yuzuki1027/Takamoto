@@ -43,14 +43,14 @@ function campany() {
       <th scope="row">事業所数</th>
       <td colspan="2">3箇所</td>
     </tr>
-    <tr>
+    {/* <tr>
       <th scope="row">売上高</th>
       <td colspan="2">19000千円</td>
     </tr>
     <tr>
       <th scope="row">経営利益</th>
       <td colspan="2">1000千円</td>
-    </tr>
+    </tr> */}
     <tr>
       <th scope="row">従業員数</th>
       <td colspan="2">5名(第1種電気工事士 1名,第二種電気工事士 2名,宅地建物取引士 1名)</td>
