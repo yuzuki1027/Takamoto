@@ -1,10 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function campany() {
+
     return (
     <>
-    <h2 className="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden display-5" >会社概要</h2>
+    <h2 className="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden display-5 " >会社概要</h2>
     
     <div className='container'>
     <table class="table table-bordered">
