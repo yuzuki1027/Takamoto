@@ -23,7 +23,7 @@ const day=new Date(2024,4,1,-1,30);
                     <th scope="row">住所</th>
                     <td>東京都狛江市岩戸北3丁目19番6号フラットえびす207号室</td>
                   </tr>
-                  <tr>
+                  <tr><img className="bd-placeholder-img img-fluid rounded-circle rounded scale-2" src={desk} width="140" height="140" />
                     <th scope="row">TEL</th>
                     <td>03-5761-5686</td>
                   </tr>
