@@ -19,8 +19,7 @@ const slideimage =()=>{
   }
 }
 setInterval(slideimage,5000);
-const today=new Date();
-const day=new Date(2024,3,25,-1,30);
+
 
  
     return (
