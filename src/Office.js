@@ -9,16 +9,16 @@ function office() {
   const images = [room,bee,table];
 
 // 以下を追記してください！
-let count = 0;
-const slideimage =()=>{
-  if( count >= images.length){
-    count = 0;
-  }else{
-    document.getElementById('slideshow').src = images[count];
-    count++;
-  }
-}
-setInterval(slideimage,5000);
+// let count = 0;
+// const slideimage =()=>{
+//   if( count >= images.length){
+//     count = 0;
+//   }else{
+//     document.getElementById('slideshow').src = images[count];
+//     count++;
+//   }
+// }
+// setInterval(slideimage,5000);
 
 
  
@@ -32,7 +32,30 @@ setInterval(slideimage,5000);
       
               <h2>東大和事業所</h2>
               <div className='col-2'></div>
-              <div className='col-8'> <img id ="slideshow" className="mx-auto bd-placeholder-img img-fluid" ></img> </div>
+
+
+
+
+              <div className='col-8'>
+                <div className='row mb-3 d-md-flex flex-md-equal'> 
+                  <div className='col-6'> 
+                    <img className='img-fluid' src="./images/newtable.jpg" alt="事業所写真１" />
+                  </div>      
+                  <div className='col-6'> 
+                    <img className='img-fluid' src="./images/bee.jpg" alt="事業所写真２" />
+                  </div>      
+                </div>
+                <div className="row mb-3">
+                  <div className='col-12'>               
+                      <img className='img-fluid' src="./images/office2.jpg" alt="事業所写真３" />
+                  </div>
+                </div>  
+                 {/* <img id ="slideshow" className="mx-auto bd-placeholder-img img-fluid" ></img> */}
+              </div>
+
+
+
+
               <div className='col-2 '></div>
               
 
@@ -45,6 +68,10 @@ setInterval(slideimage,5000);
                   <tr>
                     <th scope="row">TEL</th>
                     <td>042-843-6145</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">FAX</th>
+                    <td>042-843-6140</td>
                   </tr>
                   <tr>
                     <th scope="row">E-MAIL</th>

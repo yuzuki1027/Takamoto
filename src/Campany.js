@@ -31,6 +31,10 @@ function campany() {
       <td colspan="2">03-3489-6932</td>
     </tr>
     <tr>
+      <th scope="row">Fax番号</th>
+      <td colspan="2">042-843-6140</td>
+    </tr>
+    <tr>
       <th scope="row">設置年月日</th>
       <td colspan="2">昭和46年11月25日</td>
     </tr>
@@ -89,7 +93,7 @@ function campany() {
           <td colspan="2">東京都狛江市岩戸南4丁目15番地8号</td>
         </tr>
         <tr>
-          <th scope="row">電話番号</th>
+          <th scope="row">電話/FAX番号</th>
           <td colspan="2">03-3489-6932</td>
         </tr>
         <tr>
@@ -108,14 +112,6 @@ function campany() {
         <tr>
           <th scope="row">事業所数</th>
           <td colspan="2">2箇所</td>
-        </tr>
-        <tr>
-          <th scope="row">売上高</th>
-          <td colspan="2">19000千円</td>
-        </tr>
-        <tr>
-          <th scope="row">経営利益</th>
-          <td colspan="2">1000千円</td>
         </tr>
         <tr>
           <th scope="row">従業員数</th>
