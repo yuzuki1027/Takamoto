@@ -10,6 +10,13 @@ import Consept from './Consept';
 import Campany from './Campany';
 import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// 日本語翻訳阻止
+document.addEventListener('DOMContentLoaded', function() {
+  var userLang = navigator.language || navigator.userLanguage;
+  if (userLang === 'ja') {
+      document.body.setAttribute('translate', 'no');
+  }
+});
 root.render(
   <React.StrictMode>
     <Header/>
