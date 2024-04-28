@@ -97,6 +97,10 @@ function campany() {
           <td colspan="2">03-3489-6932</td>
         </tr>
         <tr>
+          <th scope="row">E-MAIL</th>
+          <td colspan="2">takamotodengyo@jcom.home.ne.jp</td>
+        </tr>
+        <tr>
           <th scope="row">設置年月日</th>
           <td colspan="2">昭和46年11月25日</td>
         </tr>
